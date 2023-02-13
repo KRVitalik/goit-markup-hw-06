@@ -887,6 +887,10 @@ input[placeholder="E-mail"]:focus {
   margin-bottom: 24px;
 }
 
+.modal-check:focus + .checkbox-clone {
+  border-color: var(--pressed-state-color);
+}
+
 .modal-check:checked + .checkbox-clone {
   background-color: var(--pressed-state-color);
   border-color: var(--pressed-state-color);
